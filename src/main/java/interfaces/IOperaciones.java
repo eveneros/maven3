@@ -16,4 +16,5 @@ public interface IOperaciones<T> {
     void actualizar(T entidad);
     void eliminar(int id);
     List<T> listar();
+    
 }
